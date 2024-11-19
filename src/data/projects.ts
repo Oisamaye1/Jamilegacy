@@ -2,28 +2,52 @@ import { IProjectItem, ProjectType, RepoType } from "@/types";
 
 const projects: IProjectItem[] = [
   {
-    id: "social-media-app-flutter",
-    title: "Social Media App",
+    id: "BeShop",
+    title: "Ecommerce Website",
     description:
-      "A social media mobile application developed using Flutter, GetX, Firebase Notifications and Hive.",
-    icon: "/skills/flutter.svg",
+      "Beshop is an Ecommerce shop specifically designed for the sale of electronic gadgets like phone, laptops, game console etc.",
+    icon: "/skills/nextjs.png",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/social-media-app-flutter",
-    url: "https://github.com/nixrajput/social-media-app-flutter/releases",
-    tags: ["Flutter", "Dart", "GetX", "Hive"],
+    githubUrl: "https://github.com/Oisamaye1/Beshop",
+    url: "https://beshop-peach.vercel.app/",
+    tags: ["NextJS", "Javascript", "REST API", "ShadCN", ],
   },
   {
-    id: "e-commerce-app-mern",
-    title: "E-commerce App",
+    id: "Dream Agency",
+    title: "Web Application",
     description:
-      "An e-commerce web application developed using React.js, Material UI, Redux, and Stripe.",
-    icon: "/skills/react.svg",
+      "Dream Agency is a web application for a web service provider brand",
+    icon: "/skills/nextjs.png",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/ecommerce-web-reactjs",
-    url: "https://nixlab-shop.vercel.app",
-    tags: ["React.js", "Redux", "Material UI", "Stripe"],
+    githubUrl: "https://github.com/Oisamaye1/dream-agency",
+    url: "https://dream-agency-xi.vercel.app/",
+    tags: ["NextJS", "Javascript", "CSS", "Chakra UI", "AntUI" ],
+  },
+  {
+    id: "Portfolio Website",
+    title: "Web Application",
+    description:
+      "This is portfolio website deveoped with Flask, and the Jinja template",
+    icon: "/skills/flask.png",
+    repoType: RepoType.Public,
+    projectType: ProjectType.Personal,
+    githubUrl: "https://github.com/Oisamaye1/benjamin-personal",
+    url: "https://benjamin-resume-website.onrender.com/",
+    tags: ["HTML", "CSS", "Flask", "Python"],
+  },
+  {
+    id: "Exercise App",
+    title: "Web Application",
+    description:
+      "This is an open excercise app where anyone can log in and get info on any available excercises.",
+    icon: "/skills/flask.png",
+    repoType: RepoType.Public,
+    projectType: ProjectType.Personal,
+    githubUrl: "https://exercise-generator-app.onrender.com/",
+    url: "https://github.com/Oisamaye1/exercise-app",
+    tags: ["Python", "Flask", "HTML", "CSS"],
   },
   
 ];
