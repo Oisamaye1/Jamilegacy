@@ -45,8 +45,20 @@ const projects: IProjectItem[] = [
     icon: "/skills/flask.png",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://exercise-generator-app.onrender.com/",
-    url: "https://github.com/Oisamaye1/exercise-app",
+    githubUrl:  "https://github.com/Oisamaye1/exercise-app",
+    url: "https://exercise-generator-app.onrender.com/",
+    tags: ["Python", "Flask", "HTML", "CSS"],
+  },
+  {
+    id: "Mix-Fit",
+    title: "Web Application",
+    description:
+      "This is the Frontend of a fit website where subscribers can signup and track their fitness metrics",
+    icon: "/skills/javascript.svg",
+    repoType: RepoType.Public,
+    projectType: ProjectType.Personal,
+    githubUrl: "https://github.com/Oisamaye1/Mix-Fit",
+    url: "https://mix-fit.vercel.app/",
     tags: ["Python", "Flask", "HTML", "CSS"],
   },
   
